@@ -1,5 +1,12 @@
-import '@/styles/globals.css'
+import '@/styles/globals.css';
+import BazaarLayout from '@/components/layouts/BazaarLayout';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  return (
+    <BazaarLayout>
+      <Component {...pageProps} />
+    </BazaarLayout>
+  );
 }
+
+export default App;
