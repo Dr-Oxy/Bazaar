@@ -7,6 +7,8 @@ import dangerIconWhite from './danger-white.svg';
 import heartIconWhite from './heart-white.svg';
 import cartIconWhite from './cart-white.svg';
 import profileAvartar from './profile-avatar.svg';
+import heartIconRed from './heart-red.svg';
+import starIconGray from './star-gray.svg';
 
 export {
   clockIconBlack,
@@ -18,4 +20,6 @@ export {
   heartIconWhite,
   cartIconWhite,
   profileAvartar,
+  heartIconRed,
+  starIconGray,
 };
