@@ -9,6 +9,10 @@ import cartIconWhite from './cart-white.svg';
 import profileAvartar from './profile-avatar.svg';
 import heartIconRed from './heart-red.svg';
 import starIconGray from './star-gray.svg';
+import facebookIcon from './facebook.svg';
+import twitterIcon from './twitter.svg';
+import instagramIcon from './instagram.svg';
+import whatsappIcon from './whatsapp.svg';
 
 export {
   clockIconBlack,
@@ -22,4 +26,8 @@ export {
   profileAvartar,
   heartIconRed,
   starIconGray,
+  facebookIcon,
+  twitterIcon,
+  instagramIcon,
+  whatsappIcon,
 };
