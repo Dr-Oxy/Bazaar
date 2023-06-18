@@ -1,4 +1,10 @@
 import { tomatoes, fruits, rice, groceries } from '@/public/assets/images';
+import {
+  twitterIcon,
+  facebookIcon,
+  instagramIcon,
+  whatsappIcon,
+} from '@/public/assets/icons';
 
 export const cateogories = [
   {
@@ -71,7 +77,7 @@ export const products = [
     price: 'N2035',
     ratings: 3.5,
     isPromo: true,
-    units: 3,
+    units: 7,
   },
   {
     id: 2,
@@ -89,7 +95,7 @@ export const products = [
     price: 'N2035',
     ratings: 4.1,
     isPromo: true,
-    units: 2,
+    units: 5,
   },
   {
     id: 4,
@@ -99,5 +105,64 @@ export const products = [
     ratings: 3.5,
     isPromo: true,
     units: 1,
+  },
+];
+
+export const socials = [
+  {
+    id: 1,
+    icon: facebookIcon,
+    link: 'https://facebook.com',
+  },
+  {
+    id: 2,
+    icon: twitterIcon,
+    link: 'https://twitter.com',
+  },
+  {
+    id: 3,
+    icon: instagramIcon,
+    link: 'https://instagram.com',
+  },
+  {
+    id: 4,
+    icon: whatsappIcon,
+    link: 'https://whatsapp.com',
+  },
+];
+
+export const about = [
+  {
+    id: 1,
+    title: 'FAQ',
+    link: '/faq',
+  },
+  {
+    id: 2,
+    title: 'Jobs',
+    link: '/jobs',
+  },
+  {
+    id: 3,
+    title: 'Privacy policy',
+    link: '/privacy',
+  },
+  {
+    id: 4,
+    title: 'Terms & Conditions',
+    link: '/term',
+  },
+];
+
+export const support = [
+  {
+    id: 1,
+    title: 'Contact us',
+    link: '/contact',
+  },
+  {
+    id: 2,
+    title: 'Custom Purchases',
+    link: '/custom',
   },
 ];
