@@ -8,6 +8,7 @@ import rice from './rice.png';
 import tomatoes from './tomatoes.png';
 import drinks from './coke.png';
 import toiletries from './toiletries.png';
+import reviewImg from './review.png';
 
 export {
   bazaarIcon,
@@ -20,4 +21,5 @@ export {
   tomatoes,
   toiletries,
   drinks,
+  reviewImg,
 };
