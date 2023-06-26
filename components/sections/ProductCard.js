@@ -45,7 +45,7 @@ const ProductCard = ({ product }) => {
               {' '}
               {product.name}
             </h6>
-            <span className="text-primary-red ttext-xs md:text-base ">
+            <span className="text-primary-red text-xs md:text-base ">
               {product.price}
             </span>
           </div>
