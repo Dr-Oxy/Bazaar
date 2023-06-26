@@ -6,5 +6,18 @@ import groceries from './groceries.png';
 import fruits from './fruits.png';
 import rice from './rice.png';
 import tomatoes from './tomatoes.png';
+import drinks from './coke.png';
+import toiletries from './toiletries.png';
 
-export { bazaarIcon, ads1, ads2, ads3, rice, groceries, fruits, tomatoes };
+export {
+  bazaarIcon,
+  ads1,
+  ads2,
+  ads3,
+  rice,
+  groceries,
+  fruits,
+  tomatoes,
+  toiletries,
+  drinks,
+};

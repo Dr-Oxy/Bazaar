@@ -16,6 +16,8 @@ import whatsappIcon from './whatsapp.svg';
 import fullHeartRed from './full-red-heart.svg';
 import walletBlack from './wallet-black.svg';
 import buyCart from './buy-cart.svg';
+import caretLeftDark from './caret-left-dark.svg';
+import caretRightDark from './caret-right-dark.svg';
 
 export {
   clockIconBlack,
@@ -36,4 +38,6 @@ export {
   fullHeartRed,
   walletBlack,
   buyCart,
+  caretLeftDark,
+  caretRightDark,
 };

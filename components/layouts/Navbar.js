@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
 
         <form className="flex-1  flex items-center justify-center lg:gap-x-1">
-          <div className="w-full lg:w-1/2 flex items-center gap-x-4 bg-[#0E4444] lg:bg-white/10 rounded-lg px-3 lg:px-5 py-3 lg:py-4">
+          <div className="w-full lg:w-1/2 flex items-center gap-x-4 bg-white/10 rounded-lg px-3 lg:px-5 py-3 lg:py-4">
             <Image src={searchIconwhite} alt="search icon" />
             <input
               className="w-full bg-transparent shadow-none border-0 outline-0 text-white text-sm "
