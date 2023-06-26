@@ -13,6 +13,9 @@ import facebookIcon from './facebook.svg';
 import twitterIcon from './twitter.svg';
 import instagramIcon from './instagram.svg';
 import whatsappIcon from './whatsapp.svg';
+import fullHeartRed from './full-red-heart.svg';
+import walletBlack from './wallet-black.svg';
+import buyCart from './buy-cart.svg';
 
 export {
   clockIconBlack,
@@ -30,4 +33,7 @@ export {
   twitterIcon,
   instagramIcon,
   whatsappIcon,
+  fullHeartRed,
+  walletBlack,
+  buyCart,
 };
