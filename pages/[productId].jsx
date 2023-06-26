@@ -17,16 +17,16 @@ const Product = () => {
       <section className="mt-20">
         <GoBack />
         <section className="mt-5 px-6 lg:px-14 py-7 lg:py-12 bg-white rounded-lg">
-          <h1 className="text-2xl font-medium text-bazaar-black capitalize">
+          <h1 className="text-xl lg:text-2xl font-medium text-bazaar-black capitalize">
             product details
           </h1>
 
           <div className="lg:flex gap-x-12 mt-8">
-            <article>
+            <article className="flex lg:block items-center justify-center">
               <ProductImage />
             </article>
             <article className="lg:flex-1 mt-6 lg:mt-0">
-              <h2 className="text-bazaar-black font-medium text-2xl">
+              <h2 className="text-bazaar-black font-medium text-lg lg:text-2xl">
                 Amadi farms Apples <span className="text-xl"> (2kg)</span>
               </h2>
 
@@ -61,11 +61,11 @@ const Product = () => {
             </article>
           </div>
 
-          <article className="mt-14 mb-8 bg-off-white p-10 rounded-lg">
+          <article className="mt-14 mb-8 bg-off-white p-6 lg:p-10 rounded-lg">
             <h3 className="capitalize text-base text-bazaar-black font-medium mb-4">
               product description
             </h3>
-            <p className="text-base text-primary-gray">
+            <p className="text-sm md:text-base text-primary-gray">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed
               orci turpis volutpat egestas proin. Ut accumsan eu, non sem elit,
               curabitur. A, nulla ac venenatis nunc et dui massa ac. Vitae non
@@ -87,7 +87,7 @@ const Product = () => {
             </p>
           </article>
 
-          <article className=" bg-off-white p-10 rounded-lg">
+          <article className=" bg-off-white p-6 lg:p-10  rounded-lg">
             <h3 className="capitalize text-base text-bazaar-black font-medium mb-4">
               product information
             </h3>
@@ -98,13 +98,17 @@ const Product = () => {
                   Categories
                 </h4>
 
-                <div className="mt-3 grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4 lg:w-4/5">
+                <div className="mt-3 grid grid-cols-3 lg:gap-x-2 gap-y-4 lg:w-4/5">
                   <span className="block text-center w-fit bg-orange-1 py-1 px-4 rounded-2xl text-base text-white capitalize">
                     fruits
                   </span>
 
                   <span className="block text-center w-fit bg-orange-1 py-1 px-4 rounded-2xl text-base text-white capitalize">
                     apple
+                  </span>
+
+                  <span className="block text-center w-fit bg-orange-1 py-1 px-4 rounded-2xl text-base text-white capitalize">
+                    veggies
                   </span>
                 </div>
               </div>
@@ -152,8 +156,8 @@ const Product = () => {
           </article>
         </section>
 
-        <section className="mt-8 px-6 lg:px-14 py-7 lg:py-12 bg-white rounded-lg">
-          <h2 className="text-2xl font-medium text-bazaar-black capitalize">
+        <section className="mt-8 mb-12 px-6 lg:px-14 py-7 lg:py-12 bg-white rounded-lg">
+          <h2 className="text-lg lg:text-2xl font-medium text-bazaar-black capitalize">
             related products
           </h2>
 
