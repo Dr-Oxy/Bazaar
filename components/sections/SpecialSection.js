@@ -9,7 +9,7 @@ const SpecialSection = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3.5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -20,7 +20,7 @@ const SpecialSection = () => {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -28,7 +28,7 @@ const SpecialSection = () => {
   };
 
   return (
-    <section className="mb-12 bg-white">
+    <section className="mb-12 bg-white py-4">
       <Slider {...settings}>
         {specialOffers.map((offer) => (
           <SpecialPack key={offer.id} offer={offer} />
