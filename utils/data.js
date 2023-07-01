@@ -208,3 +208,36 @@ export const reviews = [
       'volutpat, morbi fringilla faucibus pellentesque dignissim sed.tionLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis volutpat, morbi fringilla faucibus',
   },
 ];
+
+export const specialOffers = [
+  {
+    id: 1,
+    title: 'gift pack',
+    image: groceries,
+    price: 'N12,000',
+  },
+  {
+    id: 2,
+    title: 'gift pack',
+    image: groceries,
+    price: 'N12,000',
+  },
+  {
+    id: 3,
+    title: 'gift pack',
+    image: groceries,
+    price: 'N12,000',
+  },
+  {
+    id: 4,
+    title: 'gift pack',
+    image: groceries,
+    price: 'N12,000',
+  },
+  {
+    id: 5,
+    title: 'gift pack',
+    image: groceries,
+    price: 'N12,000',
+  },
+];

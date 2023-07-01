@@ -5,3 +5,5 @@ export { default as ProductImage } from './ProductImage';
 export { default as RelatedProduct } from './RelatedProduct';
 export { default as Testimonial } from './Testimonial';
 export { default as ReviewCard } from './ReviewCard';
+export { default as SpecialSection } from './SpecialSection';
+export { default as SpecialPack } from './SpecialPack';

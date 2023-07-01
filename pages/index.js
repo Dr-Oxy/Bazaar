@@ -4,12 +4,13 @@ import {
   GroceryCard,
   ProductCard,
   FlashCard,
-  ReviewCard,
+  SpecialSection,
   Testimonial,
 } from '@/components/sections';
 
 import { ads1, ads2, ads3 } from '@/public/assets/images';
 import { cateogories, products } from '@/utils/data';
+import { SP } from 'next/dist/shared/lib/utils';
 
 function Home() {
   return (
@@ -70,6 +71,8 @@ function Home() {
           ))}
         </article>
       </section>
+
+      <SpecialSection />
 
       {/* hot deals*/}
       <section className="mb-10">
