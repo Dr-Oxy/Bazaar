@@ -1,9 +1,16 @@
 import Image from 'next/image';
 
-import { GroceryCard, ProductCard, FlashCard } from '@/components/sections';
+import {
+  GroceryCard,
+  ProductCard,
+  FlashCard,
+  SpecialSection,
+  Testimonial,
+} from '@/components/sections';
 
 import { ads1, ads2, ads3 } from '@/public/assets/images';
 import { cateogories, products } from '@/utils/data';
+import { SP } from 'next/dist/shared/lib/utils';
 
 function Home() {
   return (
@@ -65,6 +72,8 @@ function Home() {
         </article>
       </section>
 
+      <SpecialSection />
+
       {/* hot deals*/}
       <section className="mb-10">
         <article className="bg-[#FFF2ED] px-14 py-5 flex items-center justify-between">
@@ -118,7 +127,11 @@ function Home() {
         </article>
       </section>
 
-      <section className="mt-10 bg-white text-primary-gray px-4 py-8 lg:p-14 rounded-lg">
+      {/* testimonial */}
+
+      <Testimonial />
+
+      <section className="mb-10 bg-white text-primary-gray px-4 py-8 lg:p-14 rounded-lg">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis vitae
         tortor urna, porttitor urna turpis hendrerit semper eu. Nunc nec, ut
         nisi sem. Vulputate et cursus varius massa cum arcu nibh ridiculus
